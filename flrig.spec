@@ -6,7 +6,9 @@ Version:	1.3.08
 Release:	1
 Summary:	Transceiver control program for Amateur Radio use
 Source0:	http://www.w1hkj.com/downloads/flrig/%{name}-%{version}.tar.gz
-BuildRequires:	gcc-c++ gcc make libx11-devel fltk-devel libxmlrpc-c-devel libpng-devel libjpeg-devel
+BuildRequires:	gcc-c++ gcc make pkgconfig(x11) fltk-devel pkgconfig(xmlrpc) pkgconfig(libpng) libjpeg-devel
+BuildRequires:	pixman-devel
+BuildRequires:	pkgconfig(cairo)
 
 %description
 Flrig is a transceiver control program designed to be used either stand
@@ -30,7 +32,6 @@ W1HKJ    -   w1hkj@w1hkj.com
 %makeinstall_std
 
 %files
-%defattr(-,root,root)
 %{_bindir}/%{name}
 %{_datadir}/applications/flrig.desktop
 %{_datadir}/pixmaps/flrig.xpm
