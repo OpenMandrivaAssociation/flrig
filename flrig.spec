@@ -2,7 +2,7 @@ Name:		flrig
 URL:		http://www.w1hjk.com
 License:	GPL
 Group:		Communications
-Version:	1.3.08
+Version:	1.3.11
 Release:	1
 Summary:	Transceiver control program for Amateur Radio use
 Source0:	http://www.w1hkj.com/downloads/flrig/%{name}-%{version}.tar.gz
