@@ -6,7 +6,7 @@ Version:	1.3.12
 Release:	1
 Summary:	Transceiver control program for Amateur Radio use
 Source0:	http://www.w1hkj.com/downloads/flrig/%{name}-%{version}.tar.gz
-BuildRequires:	gcc-c++ gcc make pkgconfig(x11) fltk-devel pkgconfig(xmlrpc) pkgconfig(libpng) libjpeg-devel
+BuildRequires:	gcc-c++ gcc make pkgconfig(x11) fltk-devel pkgconfig(xmlrpc) pkgconfig(libpng) jpeg-devel
 BuildRequires:	pixman-devel
 BuildRequires:	pkgconfig(cairo)
 
