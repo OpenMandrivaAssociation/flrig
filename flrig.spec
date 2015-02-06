@@ -3,7 +3,7 @@ URL:		http://www.w1hjk.com
 License:	GPL
 Group:		Communications
 Version:	1.3.16
-Release:	1
+Release:	2
 Summary:	Transceiver control program for Amateur Radio use
 Source0:	http://www.w1hkj.com/downloads/flrig/%{name}-%{version}.tar.gz
 BuildRequires:	gcc-c++ gcc make pkgconfig(x11) fltk-devel pkgconfig(xmlrpc) pkgconfig(libpng) jpeg-devel
