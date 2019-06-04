@@ -15,6 +15,17 @@ BuildRequires:	pkgconfig(xmlrpc)
 BuildRequires:	pkgconfig(libjpeg)
 BuildRequires:	pkgconfig(libpng)
 
+BuildRequires:  pkgconfig(fontconfig)
+BuildRequires:  pkgconfig(xrender)
+BuildRequires:  pkgconfig(xext)
+BuildRequires:  pkgconfig(xinerama)
+BuildRequires:  pkgconfig(xfixes)
+BuildRequires:  pkgconfig(xft)
+BuildRequires:  pkgconfig(cairo)
+BuildRequires:  pkgconfig(libjpeg)
+BuildRequires:  pkgconfig(alsa)
+
+
 %description
 Flrig is a transceiver control program designed to be used either stand
 alone or as an adjunct to fldigi. The user interface changes to accommodate
