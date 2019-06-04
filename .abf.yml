@@ -1,9 +1,2 @@
-removed_sources:
-  flrig-1.3.08.tar.gz: 0548d642cc5b013ce1c08f13e1a6015f60375ea8
-  flrig-1.3.11.tar.gz: 9499c1c70b51201e6387beb7c29399b29f42ca65
-  flrig-1.3.12.tar.gz: 3f866324fe9bc66480c119cb68acd18c7490780e
-  flrig-1.3.13.tar.gz: 27e5539173e90bea933b1ca910caf302b067eb2c
-  flrig-1.3.14.tar.gz: 65697609f360087c95911e7970c6acbcdbe84b2a
-  flrig-1.3.15.tar.gz: b5d0bb66f9070e5541949a301692aba519c71b30
 sources:
-  flrig-1.3.16.tar.gz: 940974f62c668c6f1fd85bfdb7e4ca62c026a525
+  flrig-1.3.44.tar.gz: f34337bb1e7643b118eec4ebe6c24474ef5abcf2
