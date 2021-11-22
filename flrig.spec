@@ -1,5 +1,5 @@
 Name:		flrig
-Version:	1.3.49
+Version:	1.4.3
 Release:	1
 Summary:	Transceiver control program for Amateur Radio use
 License:	GPLv2+
@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xmlrpc)
 BuildRequires:	pkgconfig(libjpeg)
 BuildRequires:	pkgconfig(libpng)
+BuildRequires:	pkgconfig(udev)
 
 BuildRequires:  pkgconfig(fontconfig)
 BuildRequires:  pkgconfig(xrender)
