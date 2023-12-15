@@ -1,5 +1,5 @@
 Name:		flrig
-Version:	2.0.03
+Version:	2.0.04
 Release:	1
 Summary:	Transceiver control program for Amateur Radio use
 License:	GPLv2+
