@@ -4,7 +4,7 @@ Release:	1
 Summary:	Transceiver control program for Amateur Radio use
 License:	GPLv2+
 Group:		Communications/Radio
-URL:		http://www.w1hkj.com/flrig-help/
+URL:		https://www.w1hkj.com/flrig-help/
 Source0:	http://sourceforge.net/projects/fldigi/files/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	gcc-c++
 BuildRequires:	gcc
