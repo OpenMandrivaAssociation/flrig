@@ -6,6 +6,10 @@ License:	GPLv2+
 Group:		Communications/Radio
 URL:		https://www.w1hkj.com/flrig-help/
 Source0:	http://sourceforge.net/projects/fldigi/files/%{name}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	gcc-c++
 BuildRequires:	gcc
 BuildRequires:	make
